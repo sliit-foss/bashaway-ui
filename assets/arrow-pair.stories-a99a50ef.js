@@ -1,0 +1,4 @@
+import{A as s}from"./link-3426ec6a.js";import"./tw-merge-06f6846c.js";import"./index-769a4e57.js";import"./_commonjsHelpers-042e6b4d.js";const o={className:{description:"Any additional CSS classes to the root svg element. Existing classes will be overwritten in case of conflict",type:"string",table:{defaultValue:{summary:"h-[19px] w-[18px] text-black/50"}}}},l={title:"Icons/Arrow Pair",component:s,parameters:{layout:"centered"},tags:["autodocs"],argTypes:o},r={argTypes:o};var e,t,a;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  argTypes
+}`,...(a=(t=r.parameters)==null?void 0:t.docs)==null?void 0:a.source}}};const m=["ArrowPair"];export{r as ArrowPair,m as __namedExportsOrder,l as default};
+//# sourceMappingURL=arrow-pair.stories-a99a50ef.js.map
