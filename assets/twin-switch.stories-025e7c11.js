@@ -1,7 +1,0 @@
-import{a as i}from"./pagination-5f730878.js";import"./title-f8b3384f.js";import"./index-769a4e57.js";import"./tw-merge-06f6846c.js";import"./index-cf225d18.js";import"./Combination-17516053.js";import"./index-2ec7e7c1.js";import"./link-3426ec6a.js";import"./v4-a960c1f4.js";import"./_commonjsHelpers-042e6b4d.js";const o={values:{description:"An array of 2 values to be toggled between",type:"array"},onChange:{description:"A callback function that will be called with the selected value when the value changes",type:"function",table:{category:"Events"}},className:{description:"Any additional CSS classes to be passed into the badge. Existing classes will be overwritten in case of conflict",type:"string"},handleClassName:{description:"Any additional CSS classes to be passed into the handle. Existing classes will be overwritten in case of conflict",type:"string"}},w={title:"Components/TwinSwitch",component:i,parameters:{layout:"centered"},tags:["autodocs"],argTypes:o},e={args:{values:["ROUND 01","FINAL"]},argTypes:o};var t,s,a;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
-  args: {
-    values: ["ROUND 01", "FINAL"]
-  },
-  argTypes
-}`,...(a=(s=e.parameters)==null?void 0:s.docs)==null?void 0:a.source}}};const y=["Default"];export{e as Default,y as __namedExportsOrder,w as default};
-//# sourceMappingURL=twin-switch.stories-025e7c11.js.map
