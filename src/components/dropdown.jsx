@@ -44,7 +44,7 @@ const Dropdown = ({ variant, className, contentClassName, label, options, value,
   });
 
   useEffect(() => {
-    if (value && selectedOption !== value) setSelectedOption(value);
+    if (value !== undefined && selectedOption !== value) setSelectedOption(value);
   }, [value]);
 
   const onSelect = (option) => {
