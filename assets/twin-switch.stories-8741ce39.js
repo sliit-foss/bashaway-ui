@@ -1,7 +1,0 @@
-import{a as o}from"./pagination-89c4a275.js";import"./title-f8b3384f.js";import"./index-769a4e57.js";import"./tw-merge-06f6846c.js";import"./index-cf225d18.js";import"./Combination-17516053.js";import"./index-2ec7e7c1.js";import"./link-3426ec6a.js";import"./v4-a960c1f4.js";import"./_commonjsHelpers-042e6b4d.js";const i={values:{description:"An array of 2 values to be toggled between",type:"array"},selectedValue:{description:"The currently selected value",type:"string",table:{defaultValue:{summary:"values[0]"}}},onChange:{description:"A callback function that will be called with the selected value when the value changes",type:"function",table:{category:"Events"}},className:{description:"Any additional CSS classes to be passed into the switch. Existing classes will be overwritten in case of conflict",type:"string"},handleClassName:{description:"Any additional CSS classes to be passed into the handle. Existing classes will be overwritten in case of conflict",type:"string"}},w={title:"Components/TwinSwitch",component:o,parameters:{layout:"centered"},tags:["autodocs"],argTypes:i},e={args:{values:["ROUND 01","FINAL"]},argTypes:i};var t,s,a;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
-  args: {
-    values: ["ROUND 01", "FINAL"]
-  },
-  argTypes
-}`,...(a=(s=e.parameters)==null?void 0:s.docs)==null?void 0:a.source}}};const y=["Default"];export{e as Default,y as __namedExportsOrder,w as default};
-//# sourceMappingURL=twin-switch.stories-8741ce39.js.map
