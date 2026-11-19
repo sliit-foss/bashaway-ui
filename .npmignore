@@ -16,3 +16,4 @@ postcss.config.js
 tailwind.config.js
 lefthook.yml
 pnpm-workspace.yaml
+eslint.config.mjs
