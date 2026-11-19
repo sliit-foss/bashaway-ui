@@ -15,3 +15,4 @@ commitlint.config.js
 postcss.config.js
 tailwind.config.js
 lefthook.yml
+pnpm-workspace.yaml

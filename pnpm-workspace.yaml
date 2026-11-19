@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - esbuild
+  - lefthook
+
+patchedDependencies:
+  react-loading-skeleton@3.3.1: patches/react-loading-skeleton@3.3.1.patch
