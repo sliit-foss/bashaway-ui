@@ -74,7 +74,7 @@ const Dropdown = ({ variant, className, contentClassName, label, options, value,
       {showItems && (
         <div
           className={twMerge(
-            "absolute w-full left-0 z-10 mt-2 origin-top-right rounded-2xl bg-white/50 backdrop-blur-lg border border-black/20 focus:outline-none",
+            "absolute w-full left-0 z-10 mt-2 origin-top-right rounded-2xl bg-white/50 backdrop-blur-lg border border-black/20 focus:outline-hidden",
             contentClassName
           )}
           role="menu"

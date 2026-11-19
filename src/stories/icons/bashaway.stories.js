@@ -35,7 +35,7 @@ export const Light = {
 export const Dark = {
   args: {
     dark: true,
-    className: "bg-black p-[5px] transform scale-[2.9] rounded-sm"
+    className: "bg-black p-[5px] transform scale-[2.9] rounded-xs"
   },
   argTypes
 };

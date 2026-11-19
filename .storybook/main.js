@@ -9,24 +9,20 @@ const config = {
   ],
   addons: [
     "@storybook/addon-links",
-    "@storybook/addon-essentials",
+    "@storybook/addon-docs",
     "@storybook/addon-onboarding",
-    "@storybook/addon-interactions",
-    "storybook-addon-react-router-v6"
+    "storybook-addon-remix-react-router"
   ],
   framework: {
     name: "@storybook/react-vite",
     options: {},
-  },
-  docs: {
-    autodocs: "tag",
   },
   staticDirs: ['./public'],
   async viteFinal(config) {
     return mergeConfig(config, {
       resolve: {
         alias: {
-          "@/": `${path.resolve(__dirname, "../src")}/`
+          "@/": `${path.resolve(import.meta.dirname, "../src")}/`
         }
       },
     });

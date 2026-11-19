@@ -5,7 +5,7 @@ import { twMerge } from "tailwind-merge";
 
 const eyeIconClasses = "cursor-pointer text-black/40 hover:text-black/60 transition-all duration-medium";
 
-export const inputStyles = `w-full h-14 sm:h-16 bg-transparent border bg-white border-black/20 focus:border-black outline-none !focus:outline-none !ring-0 !focus:ring-0 p-5 text-base font-normal transition duration-300`;
+export const inputStyles = `w-full h-14 sm:h-16 bg-transparent border bg-white border-black/20 focus:border-black outline-hidden !focus:outline-none !ring-0 !focus:ring-0 p-5 text-base font-normal transition duration-300`;
 
 const inputVariants = cva(inputStyles, {
   variants: {

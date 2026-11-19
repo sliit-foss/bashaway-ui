@@ -1,35 +1,12 @@
 import { useEffect, useState } from "react";
-import path from "path";
-import resolveConfig from "tailwindcss/resolveConfig";
 
-let tailwindConfig;
-
-let iterations = 0;
-
-while (true) {
-  iterations++;
-  if (iterations > 10) {
-    tailwindConfig = {
-      theme: {
-        screens: {
-          xs: "400px",
-          xsm: "450px"
-        }
-      }
-    };
-    break;
-  }
-  try {
-    tailwindConfig = require(`${path.join(process.cwd(), "../".repeat(iterations), "tailwind.config.js")}`);
-    break;
-    // eslint-disable-next-line no-empty
-  } catch {}
-}
-
-const config = resolveConfig(tailwindConfig);
+const screens = {
+  xs: "400px",
+  xsm: "450px"
+};
 
 const calculateBreakpoints = () =>
-  Object.entries(config.theme.screens).reduce((acc, [key, value]) => {
+  Object.entries(screens).reduce((acc, [key, value]) => {
     acc[key] = window.matchMedia(`(min-width: ${value})`).matches;
     return acc;
   }, {});

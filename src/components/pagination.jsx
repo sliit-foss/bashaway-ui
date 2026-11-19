@@ -17,6 +17,7 @@ const Pagination = (props) => {
           });
         }, 0);
       }}
+      applyTheme="replace"
       theme={{
         pages: {
           base: "xs:mt-0 mt-2 inline-flex items-center gap-3.5 font-semibold",
