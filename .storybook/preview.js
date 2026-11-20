@@ -1,8 +1,8 @@
-import { withRouter } from 'storybook-addon-react-router-v6'
+import { withRouter } from 'storybook-addon-remix-react-router'
 
 import '../src/styles/storybooks.css';
 
-/** @type { import('@storybook/react').Preview } */
+/** @type { import('@storybook/react-vite').Preview } */
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
@@ -15,7 +15,7 @@ const preview = {
     reactRouter: {},
     options: {}
   },
-  decorators: [withRouter()],
+  decorators: [withRouter],
 };
 
 export default preview;

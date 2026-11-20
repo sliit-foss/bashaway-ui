@@ -37,7 +37,7 @@ const AlertDialogContent = React.forwardRef(({ className, overlayClassName, ...p
 AlertDialogContent.displayName = AlertDialogPrimitive.Content.displayName;
 
 const AlertDialogHeader = ({ className, ...props }) => (
-  <div className={twMerge("flex flex-col space-y-2 text-center sm:text-left", className)} {...props} />
+  <div className={twMerge("flex flex-col gap-2 text-center sm:text-left", className)} {...props} />
 );
 AlertDialogHeader.displayName = "AlertDialogHeader";
 
