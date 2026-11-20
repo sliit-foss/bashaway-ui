@@ -1,0 +1,6 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{t}from"./jsx-runtime-MKhVqBIO.js";import{g as n,t as r}from"./components-CJQkuDNY.js";function i({className:e}){return(0,a.jsx)(n,{className:e,children:(0,a.jsx)(o,{})})}var a,o;function s(){return(s=e((()=>{r(),a=t(),o=()=>{throw Error(`I am an error`)},i.__docgenInfo={description:``,methods:[],displayName:`ErrorBoundaryExample`}})))()}var c,l,u,d;function f(){return(f=e((()=>{s(),c={className:{description:`Any additional CSS classes to the root element. Existing classes will be overwritten in case of conflict`,type:`string`,table:{defaultValue:{summary:`w-full min-h-screen flex flex-col justify-center items-center font-inter`}}}},l={title:`Components/ErrorBoundary`,component:i,parameters:{layout:`centered`},tags:[`autodocs`]},u={argTypes:c,args:{className:`min-h-0`}},d=[`ErrorBoundary`],u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  argTypes,
+  args: {
+    className: "min-h-0"
+  }
+}`,...u.parameters?.docs?.source}}}})))()}f();export{u as ErrorBoundary,d as __namedExportsOrder,l as default};

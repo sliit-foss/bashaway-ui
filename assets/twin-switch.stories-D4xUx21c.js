@@ -1,0 +1,6 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{M as t,t as n}from"./components-CJQkuDNY.js";var r,i,a,o;function s(){return(s=e((()=>{n(),r={values:{description:`An array of 2 values to be toggled between`,type:`array`},selectedValue:{description:`The currently selected value`,type:`string`,table:{defaultValue:{summary:`values[0]`}}},onChange:{description:`A callback function that will be called with the selected value when the value changes`,type:`function`,table:{category:`Events`}},className:{description:`Any additional CSS classes to be passed into the switch. Existing classes will be overwritten in case of conflict`,type:`string`},handleClassName:{description:`Any additional CSS classes to be passed into the handle. Existing classes will be overwritten in case of conflict`,type:`string`}},i={title:`Components/TwinSwitch`,component:t,parameters:{layout:`centered`},tags:[`autodocs`],argTypes:r},a={args:{values:[`ROUND 01`,`FINAL`]},argTypes:r},o=[`Default`],a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
+  args: {
+    values: ["ROUND 01", "FINAL"]
+  },
+  argTypes
+}`,...a.parameters?.docs?.source}}}})))()}s();export{a as Default,o as __namedExportsOrder,i as default};

@@ -1,0 +1,3 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{f as t,t as n}from"./icons-PdGlN1rt.js";var r,i,a,o;function s(){return(s=e((()=>{n(),r={className:{description:`Any additional CSS classes to the root svg element. Existing classes will be overwritten in case of conflict`,type:`string`,table:{defaultValue:{summary:`h-[19px] w-[18px] text-black/50`}}}},i={title:`Icons/Arrow Pair`,component:t,parameters:{layout:`centered`},tags:[`autodocs`],argTypes:r},a={argTypes:r},o=[`ArrowPair`],a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
+  argTypes
+}`,...a.parameters?.docs?.source}}}})))()}s();export{a as ArrowPair,o as __namedExportsOrder,i as default};
